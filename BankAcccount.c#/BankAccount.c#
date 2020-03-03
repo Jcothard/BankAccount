@@ -1,0 +1,28 @@
+using System;
+
+namespace classes
+
+{
+    public class BankAccount
+    {
+        public string Number {get;}
+        public string Owner {get;}
+        public string Balance {get;}      
+
+        public BankAccount (string name, decimal intialBalance)
+        {
+            this.Owner =name;
+            this.Balance = intialBalance;
+        }
+
+        public void MakeDeposit(decimal amount, DateTime date, string note)
+        {
+
+        }  
+
+        public void MakeWithdrawal (decimal amount, DateTime date, string note)
+        {
+
+        }
+    }    
+}
